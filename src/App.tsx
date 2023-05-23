@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
+import { AppRoutes } from "./routes/AppRoutes";
+import { GlobalStyles } from "./styles/GlobalStyles";
 
 export const App = () => {
   return (
-    <header>
-      
-    </header>
+    <>
+    <GlobalStyles/>
+    <AppRoutes/>
+    </>
   );
 };
