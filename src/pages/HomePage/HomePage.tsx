@@ -1,17 +1,17 @@
 import { Header } from "../../components/header/Header";
-// import { StyledBackgroundDark } from "../../styles/background";
 import { StyledContainer } from "../../styles/grid";
 import { MainHomePage } from "./MainHomePage/mainHomePage";
-
+import { StyleDivBackGround } from "./styleHomePage";
 
 export const HomePage = () => {
   return (
-    // <StyledBackgroundDark>
-    <StyledContainer>
-    <Header/>
-    <MainHomePage/>
-    </StyledContainer>
-    // </StyledBackgroundDark>
-    
+    <>
+    <Header />
+    <StyleDivBackGround>
+      <StyledContainer>
+        <MainHomePage />
+      </StyledContainer>
+    </StyleDivBackGround>
+    </>
   );
 };

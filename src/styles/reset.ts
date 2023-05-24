@@ -24,6 +24,7 @@ time, mark, audio, video {
 	border: 0;
 	vertical-align: baseline;
     text-decoration: none;
+	font-family: 'Roboto';
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,6 +48,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+a {
+	color: var(--title-nav);
 }
 
 `;

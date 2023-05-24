@@ -6,6 +6,7 @@ export const Global = createGlobalStyle`
 --header-color: #1B1B1B;
 --text-dark: #050505;
 --text-clarified: #CCCBC7;
+--title-nav: #DAD7D0;
 }
 `;
 
