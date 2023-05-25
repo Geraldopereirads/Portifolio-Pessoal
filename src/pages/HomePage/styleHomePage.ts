@@ -6,4 +6,5 @@ export const StyleDivBackGround = styled.div`
   height: 100vh;
 
   overflow-y: hidden;
+
 `;

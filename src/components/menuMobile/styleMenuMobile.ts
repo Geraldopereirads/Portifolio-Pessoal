@@ -42,6 +42,16 @@ export const ContainerMenuMobile  = styled.section`
 
   }
 
+  a{
+    border-bottom: solid 1px transparent;
+  }
+
+
+  a:hover{
+    border-bottom: solid 1px var(--primary-color);
+  }
+
+
   ${({ menuVisible }: CustomComponentProps) =>
     menuVisible &&
     css`

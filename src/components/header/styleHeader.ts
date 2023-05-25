@@ -9,6 +9,17 @@ export const StyleHeader = styled.header`
 
   padding: 15px;
   padding-right: 30px;
+  
+  width: 100%;
+
+
+  @media (min-width: 700px) {
+    justify-content: space-around;
+  }
+
+  @media (min-width: 900px) {
+    gap: 40px;
+  }
 `;
 
 export const StyleDivSociaisHeader = styled.div`
@@ -17,13 +28,47 @@ export const StyleDivSociaisHeader = styled.div`
   align-items: center;
   gap: 15px;
 
-  @media (min-width: 899px) {
-    display: none;
-  }
+  padding-right: 50px;
 `;
 
 export const StyleNavHeader = styled.nav`
-  @media (max-width: 900px) {
+  display: flex;
+  gap: 50px;
+
+  a {
+    border-bottom: solid 1px transparent;
+  }
+
+  a:hover {
+    border-bottom: solid 1px var(--primary-color);
+  }
+
+  @media (max-width: 700px) {
+    display: none;
+  }
+
+  @media (min-width: 800px) {
+    gap: 75px;
+  }
+
+  @media (min-width: 900px) {
+    gap: 100px;
+  }
+
+  @media (min-width: 1000px) {
+    gap: 120px;
+  }
+
+  @media (min-width: 1100px) {
+    gap: 130px;
+  }
+
+  @media (min-width: 1200px) {
+    gap: 170px;
+  }
+`;
+export const StyleButtonMenu = styled.span`
+  @media (min-width: 700px) {
     display: none;
   }
 `;
