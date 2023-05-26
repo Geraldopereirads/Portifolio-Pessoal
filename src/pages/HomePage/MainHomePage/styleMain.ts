@@ -77,7 +77,7 @@ export const StyleMainContainer = styled.main`
     flex-direction: row;
     align-items: center;
 
-    padding-top: 50px;
+    padding-top: 30px;
 
     h1 {
       font-size: 1.6rem;
@@ -92,7 +92,7 @@ export const StyleMainContainer = styled.main`
     }
 
     img {
-      width: 120%;
+      width: 54%;
     }
   }
 
@@ -136,21 +136,13 @@ export const StyleMainContainer = styled.main`
     }
   }
 
+  @media (min-width: 1000px) {
+    gap: 100px;
+  }
+
   @media (min-width: 900px) {
     img {
-      width: 100%;
-    }
-  }
-
-  @media (min-width: 980px) {
-    img {
-      width: 80%;
-    }
-  }
-
-  @media (min-width: 980px) {
-    img {
-      width: 65%;
+      width: 44%;
     }
   }
 
@@ -159,19 +151,35 @@ export const StyleMainContainer = styled.main`
       width: 40%;
     }
   }
+  @media (min-width: 1200px) {
+    padding-top: 100px;
+    img {
+      width: 30%;
+    }
+  }
 `;
 
 export const StyleDivMainContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 87%;
+  max-width: 76%;
   padding-top: 20px;
 
   a:hover {
     background-color: var(--title-nav);
   }
 
+  @media (min-width: 400px) {
+    max-width: 89%;
+  }
+
+
+
+  @media (min-width: 500px) {
+    max-width: 47%;
+  }
+
   @media (min-width: 700px) {
     padding-left: 30px;
   }
@@ -179,4 +187,10 @@ export const StyleDivMainContainer = styled.div`
   @media (min-width: 700px) {
     padding-left: 30px;
   }
+
+  @media (min-width: 1000px) {
+    max-width: 32%;
+  }
+
+  
 `;
