@@ -4,7 +4,6 @@ export const StyleMainContainer = styled.main`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  overflow-x: hidden;
 
   h1 {
     color: var(--text-clarified);
@@ -45,11 +44,14 @@ export const StyleMainContainer = styled.main`
 
   img {
     width: 90%;
+    padding-top: 40px;
   }
 
   @media (min-width: 430px) {
     img {
+      padding-top: 30px;
       width: 70%;
+      margin: 0 auto;
     }
 
     h1 {
@@ -70,10 +72,22 @@ export const StyleMainContainer = styled.main`
     flex-direction: row;
     align-items: center;
 
-    padding-top: 90px;
+    padding-top: 70px;
+
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    h1 small {
+      font-size: 1rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
 
     img {
-      width: 55%;
+      width: 120%;
     }
   }
 
@@ -89,21 +103,58 @@ export const StyleMainContainer = styled.main`
     h2 {
       font-size: 1rem;
     }
+
+    img {
+      width: 110%;
+    }
+  }
+
+  @media (min-width: 700px) {
+    img {
+      width: 90%;
+    }
   }
 
   @media (min-width: 800px) {
     h1 {
       font-size: 2.5rem;
     }
-    h1 small{
+    h1 small {
       font-size: 1.5rem;
     }
-    h2{
+    h2 {
       font-size: 1.5rem;
     }
 
-    img{
-      width: 46%;
+    img {
+      width: 120%;
+    }
+  }
+
+  @media (min-width: 900px) {
+    img {
+      width: 100%;
+    }
+  }
+
+
+  @media (min-width: 980px) {
+    img {
+      width: 80%;
+    }
+  }
+
+
+  @media (min-width: 980px) {
+    img {
+      width: 65%;
+    }
+  }
+
+
+  @media (min-width: 1100px) {
+    img {
+      width: 40%;
     }
   }
 `;
@@ -112,12 +163,19 @@ export const StyleDivMainContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 98%;
+  max-width: 87%;
+  padding-top: 20px;
 
-  a:hover{
-   color: var(--title-nav);
-   background-color: var(--header-color);
+  a:hover {
+    background-color: var(--title-nav);
   }
 
- 
+  @media (min-width: 700px) {
+    padding-left: 30px;
+  }
+  
+  @media (min-width: 700px) {
+    padding-left: 30px;
+  }
+
 `;

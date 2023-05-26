@@ -7,13 +7,11 @@ export const StyleHeader = styled.header`
   justify-content: space-between;
   background-color: var(--header-color);
 
-  padding: 15px;
-  padding-right: 30px;
-  
   width: 100%;
+  max-width: 100%;
+  height: 70px;
 
-
-  @media (min-width: 700px) {
+  @media (min-width: 701px) {
     justify-content: space-around;
   }
 
@@ -33,7 +31,7 @@ export const StyleDivSociaisHeader = styled.div`
 
 export const StyleNavHeader = styled.nav`
   display: flex;
-  gap: 50px;
+  gap: 30px;
 
   a {
     border-bottom: solid 1px transparent;
@@ -48,27 +46,29 @@ export const StyleNavHeader = styled.nav`
   }
 
   @media (min-width: 800px) {
-    gap: 75px;
+    gap: 50px;
   }
 
   @media (min-width: 900px) {
-    gap: 100px;
+    gap: 60px;
   }
 
   @media (min-width: 1000px) {
-    gap: 120px;
+    gap: 75px;
   }
 
   @media (min-width: 1100px) {
-    gap: 130px;
+    gap: 90px;
   }
 
   @media (min-width: 1200px) {
-    gap: 170px;
+    gap: 125px;
   }
 `;
 export const StyleButtonMenu = styled.span`
-  @media (min-width: 700px) {
+  padding-left: 20px;
+
+  @media (min-width: 701px) {
     display: none;
   }
 `;
