@@ -44,6 +44,7 @@ export const ContainerMenuMobile  = styled.section`
 
   a{
     border-bottom: solid 1px transparent;
+    font-size: 1.5rem;
   }
 
 
