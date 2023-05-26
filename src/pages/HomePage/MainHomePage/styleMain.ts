@@ -185,11 +185,19 @@ export const StyleDivMainContainer = styled.div`
   }
 
   @media (min-width: 700px) {
-    padding-left: 30px;
+    padding-left: 23px;
   }
 
   @media (min-width: 1000px) {
     max-width: 32%;
+    padding-left: 60px;
+
+  }
+
+  @media (min-width: 1475px) {
+    max-width: 32%;
+    padding-left: 80px;
+
   }
 
   
