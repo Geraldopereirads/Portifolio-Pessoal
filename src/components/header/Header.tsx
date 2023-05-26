@@ -23,7 +23,7 @@ export const Header = () => {
       <HiMenuAlt2
         color="#DAD7D0"
         cursor="pointer"
-        size={25}
+        size={30}
         onClick={() => setMenuVisible(true)}
       />
       </StyleButtonMenu>
@@ -40,15 +40,15 @@ export const Header = () => {
         <Link
           target="_blank"
           to={"https://www.linkedin.com/in/geraldo-pereira/"}>
-          <GrLinkedinOption size={20} />
+          <GrLinkedinOption size={25} />
         </Link>
         <Link target="_blank" to={"https://github.com/Geraldopereirads"}>
-          <GrGithub size={20} />
+          <GrGithub size={25} />
         </Link>
         <Link
           target="_blank"
           to={"https://www.instagram.com/geraldopereiradsj/"}>
-          <GrInstagram size={20} />
+          <GrInstagram size={25} />
         </Link>
       </StyleDivSociaisHeader>
     </StyleHeader>

@@ -43,7 +43,7 @@ export const StyleMainContainer = styled.main`
   }
 
   img {
-    width: 90%;
+    width: 62%;
     padding-top: 40px;
   }
 
@@ -72,7 +72,7 @@ export const StyleMainContainer = styled.main`
     flex-direction: row;
     align-items: center;
 
-    padding-top: 70px;
+    padding-top: 50px;
 
     h1 {
       font-size: 1.6rem;
