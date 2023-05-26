@@ -50,7 +50,7 @@ export const StyleMainContainer = styled.main`
 
   @media (max-width: 420px) {
     img {
-      width: 80px;
+      width: 240px;
     }
   }
   @media (min-width: 430px) {
