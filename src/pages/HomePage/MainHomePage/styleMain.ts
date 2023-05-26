@@ -61,6 +61,8 @@ export const StyleMainContainer = styled.main`
 
     h1 {
       font-size: 1.8rem;
+      line-height: 125%;
+
     }
 
     h1 small {
