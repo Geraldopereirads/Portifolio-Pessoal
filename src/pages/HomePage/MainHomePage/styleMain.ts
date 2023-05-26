@@ -50,7 +50,7 @@ export const StyleMainContainer = styled.main`
   @media (min-width: 430px) {
     img {
       padding-top: 30px;
-      width: 70%;
+      width: 62%;
       margin: 0 auto;
     }
 
